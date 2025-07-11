@@ -7,4 +7,5 @@ RUN set -x \
 ENV LESSCHARSET=utf-8
 WORKDIR /usr/src/app
 
+COPY ./profile.d/alias.sh /etc/profile.d
 
