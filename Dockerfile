@@ -1,5 +1,5 @@
 #FROM node:21-alpine3.18
-FROM node:21-slim
+FROM node:22-slim
 RUN set -x \
   && apt-get update \
   && apt-get install -y git vim less curl jq \
